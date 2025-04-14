@@ -13,7 +13,7 @@ const LinksSection = () => {
         </div>
         
         <div className="flex flex-wrap justify-center md:justify-end gap-4">
-          <a href="#" className="flex items-center space-x-2 hover:text-dashboard-accent transition-colors">
+          {/* <a href="#" className="flex items-center space-x-2 hover:text-dashboard-accent transition-colors">
             <FileText className="h-4 w-4" />
             <span>SOP Pengawasan</span>
           </a>
@@ -26,11 +26,11 @@ const LinksSection = () => {
           <a href="#" className="flex items-center space-x-2 hover:text-dashboard-accent transition-colors">
             <Folder className="h-4 w-4" />
             <span>Arsip Dokumen</span>
-          </a>
+          </a> */}
           
-          <a href="#" className="flex items-center space-x-2 hover:text-dashboard-accent transition-colors">
+          <a href="https://docs.google.com/spreadsheets/d/1sJUzB3XmJ_O58i42TbeA8p95bTAgRJ5TfD8XXu7DGEg/edit?usp=sharing" className="flex items-center space-x-2 hover:text-dashboard-accent transition-colors">
             <ExternalLink className="h-4 w-4" />
-            <span>Portal Inspektorat</span>
+            <span>Template Naskah</span>
           </a>
         </div>
       </div>
